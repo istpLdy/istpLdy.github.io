@@ -177,7 +177,7 @@ img {
 }
 
 .form-control:focus {
-     border-color: #ffffff !important;
+     border-color: #111111 !important;
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
 
@@ -222,7 +222,7 @@ button {
 .loader_bg {
      position: fixed;
      z-index: 9999999;
-     background: #fff;
+     background: #111111;
      width: 100%;
      height: 100%;
 }
@@ -292,7 +292,7 @@ button {
 }
 
 .right_button a {
-     color: #fff;
+     color: #111111;
      font-size: 17px;
      font-weight: 500;
 }
@@ -300,8 +300,8 @@ button {
 .header {
      width: 100%;
      padding: 30px 30px;
-     background: #AEEEEE;
-     border-bottom: #fff solid 5px;
+     background: #000000;
+     border-bottom: #111111 solid 5px;
 }
 
 
@@ -320,7 +320,7 @@ button {
 }
 
 .text-bg h1 {
-     color: #fff;
+     color: #111111;
      font-size: 65px;
      line-height: 75px;
      padding-bottom: 50px;
@@ -329,7 +329,7 @@ button {
 }
 
 .text-bg p {
-     color: #fff;
+     color: #111111;
      line-height: 30px;
      font-size: 17px;
      margin-bottom: 50px;
@@ -338,7 +338,7 @@ button {
 .text-bg .read_more {
      font-weight: 500;
      background: #1d37fd;
-     color: #fff !important;
+     color: #111111 !important;
      border-radius: 43px;
      margin-right: 25px;
      padding: 13px 0;
@@ -361,7 +361,7 @@ button {
      height: 60px;
      opacity: 1;
      font-size: 22px;
-     color: #fff;
+     color: #111111;
      border-radius: 60px;
      top: 154%;
      background: #1d37fd;
@@ -396,7 +396,7 @@ button {
 
 .titlepage h2 {
      font-size: 40px;
-     color: #AEEEEE;
+     color: #000000;
      line-height: 45px;
      font-weight: bold;
      padding: 0;
@@ -414,7 +414,7 @@ button {
 
 .read_more {
      font-size: 17px;
-     background-color: #fff;
+     background-color: #111111;
      color: #000;
      padding: 15px 0px;
      width: 100%;
@@ -429,7 +429,7 @@ button {
 
 .read_more:hover {
      background: #03cafc;
-     color: #fff !important;
+     color: #111111 !important;
      transition: ease-in all 0.5s;
 }
 
@@ -474,7 +474,7 @@ button {
 }
 
 .service .service_text h3 {
-     color: #AEEEEE;
+     color: #000000;
      font-size: 25px;
      line-height: 30px;
      font-weight: bold;
@@ -482,7 +482,7 @@ button {
 }
 
 .service .service_text p {
-     color: #AEEEEE;
+     color: #000000;
      font-size: 17px;
      line-height: 32px;
      font-weight: 400;
@@ -511,7 +511,7 @@ button {
 
 .about {
      padding: 90px 0 0px 0;
-     background-color: #ffffff;
+     background-color: #111111;
 }
 
 .about .about_img figure {
@@ -556,7 +556,7 @@ button {
 }
 
 .project .titlepage h2 {
-     color: #fff;
+     color: #111111;
 }
 
 .project .titlepage p {
@@ -564,7 +564,7 @@ button {
      line-height: 30px;
      font-weight: 400;
      padding-top: 10px;
-     color: #fff;
+     color: #111111;
 }
 
 .project .project_box {
@@ -579,7 +579,7 @@ button {
 }
 
 .project .project_box h3 {
-     color: #fff;
+     color: #111111;
      font-size: 30px;
      line-height: 30px;
      font-weight: bold;
@@ -619,8 +619,8 @@ button {
      margin-top: 30px;
      margin: 0 auto;
      display: block;
-     border: #fff solid 2px;
-     color: #fff;
+     border: #111111 solid 2px;
+     color: #111111;
      background: transparent;
      padding: 9px 0;
 }
@@ -683,7 +683,7 @@ button {
 }
 
 #myCarousel .carousel-indicators .active {
-     background: #AEEEEE;
+     background: #000000;
 }
 
 .testimonial_Carousel .carousel-control-next,
@@ -704,7 +704,7 @@ button {
 
 .contact {
      margin-top: 90px;
-     background: #fff;
+     background: #111111;
 }
 
 .contact .titlepage {
@@ -739,12 +739,12 @@ button {
 }
 
 .main_form .contactus {
-     border-bottom: #ffffff solid 1px;
+     border-bottom: #111111 solid 1px;
      margin-bottom: 20px;
      width: 100%;
      height: 57px;
      background: transparent;
-     color: #ffffff;
+     color: #111111;
      font-size: 18px;
      font-weight: normal;
      border-top: inherit;
@@ -753,13 +753,13 @@ button {
 }
 
 .main_form .contactusmess {
-     border-bottom: #ffffff solid 1px;
+     border-bottom: #111111 solid 1px;
      margin-bottom: 0;
      width: 100%;
      padding-top: 80px;
      padding-bottom: 14px;
      background: transparent;
-     color: #ffffff;
+     color: #111111;
      font-size: 18px;
      font-weight: normal;
      border-top: inherit;
@@ -772,7 +772,7 @@ button {
      font-weight: 500;
      font-size: 18px;
      width: 185px;
-     color: #fff;
+     color: #111111;
      height: 56px;
      margin-top: 50px;
      transition: ease-in all 0.5s;
@@ -780,12 +780,12 @@ button {
 }
 
 .send_btn:hover {
-     background: #AEEEEE;
+     background: #000000;
      transition: ease-in all 0.5s;
 }
 
 #request *::placeholder {
-     color: #ffffff;
+     color: #111111;
      opacity: 1;
 }
 
@@ -806,7 +806,7 @@ button {
 }
 
 .footer h3 {
-     color: #fff;
+     color: #111111;
      font-size: 25px;
      line-height: 25px;
      text-align: left;
@@ -824,7 +824,7 @@ button {
 }
 
 .footer p {
-     color: #fff;
+     color: #111111;
      font-size: 17px;
      line-height: 28px;
      text-align: left;
@@ -837,7 +837,7 @@ ul.use_link li {
 }
 
 ul.use_link li a {
-     color: #fff;
+     color: #111111;
      font-size: 17px;
      padding-bottom: 9px;
 }
@@ -857,7 +857,7 @@ ul.location_icon {
 
 ul.location_icon li {
      font-size: 17px;
-     color: #fff;
+     color: #111111;
      text-align: left;
      padding: 0px 0px 18px 0px;
      display: flex;
@@ -867,7 +867,7 @@ ul.location_icon li {
 
 ul.location_icon li a {
      font-size: 30px;
-     color: #fff;
+     color: #111111;
      line-height: 30px;
      padding-right: 20px;
 }
@@ -891,8 +891,8 @@ ul.location_icon li a {
      margin-left: -51px;
      font-size: 18px;
      background: #f9bf16;
-     color: #fff;
-     border: #fff solid 4px;
+     color: #111111;
+     border: #111111 solid 4px;
      border-radius: 30px;
 }
 
@@ -940,7 +940,7 @@ ul.location_icon li a {
 }
 
 .about_page .blue_bg .titlepage h2 {
-     color: #fff;
+     color: #111111;
 }
 
 .about_page .about .titlepage p {
@@ -952,7 +952,7 @@ ul.location_icon li a {
 }
 
 .project_page .blue_bg .titlepage h2 {
-     color: #fff;
+     color: #111111;
 }
 
 .project_page .project .titlepage p {
@@ -964,7 +964,7 @@ ul.location_icon li a {
 }
 
 .contact_page .blue_bg .titlepage h2 {
-     color: #fff;
+     color: #111111;
 }
 
 .contact_page .contact {
@@ -972,7 +972,7 @@ ul.location_icon li a {
 }
 
 .testimonial_page .blue_bg .titlepage h2 {
-     color: #fff;
+     color: #111111;
 }
 
 .testimonial_page .testimonial {
