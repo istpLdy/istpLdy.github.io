@@ -44,9 +44,15 @@
             success: function(data) {
                 let table = '<table>';
                 table += '<tr><th>ID</th><th>Name</th><th>Phone</th></tr>';
-                table += `<tr><td>${data.userid}</td><td>${data.name}</td><td>${data.phone}</td></tr>`
+                for (let i = 0; i < data.length; i++) {
+                    table += `<tr><td>${data[i].userid}</td><td>${data[i].name}</td><td>${data[i].phone}</td></tr>`;
+                }
                 table += '</table>';
                 $('#users').html(table);
+
+                // table += `<tr><td>${data.userid}</td><td>${data.name}</td><td>${data.phone}</td></tr>`
+                // table += '</table>';
+                // $('#users').html(table);
             },
             error: function(xhr, status, error) {
                 $('#users').html('<p>An error occurred while fetching data.</p>');
