@@ -43,7 +43,7 @@
             dataType: 'json',
             success: function(data) {
                 let table = '<table>';
-                table += '<tr><th>ID</th><th>Phone</th></tr>';
+                table += '<tr><th>ID</th><th>Name</th><th>Phone</th></tr>';
                 table += `<tr><td>${data.userid}</td><td>${data.name}</td><td>${data.phone}</td></tr>`
                 table += '</table>';
                 $('#users').html(table);
