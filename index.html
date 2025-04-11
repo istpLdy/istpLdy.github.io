@@ -1,21 +1,57 @@
-<!doctype html>
-<html lang='ko'>
-    <head>
-        <title>HTML 연습</title>
-        <style>
-            #sp1 { color:green; display:block; }
-        </style>
-    </head>
-    <body>
-        <!-- block level elements -->
-        <h1>여기는 제일 큰 제목</h1>
-        <h6>여기는 제일 작은 제목</h6>
-        <!-- in-line level elements -->
-        <span id='sp1'>안녕하세요?</span><br>
-        <span id='sp2'>축하합니다</span>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>회원 정보</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <h2>회원 정보 목록</h2>
+  <table id="memberTable">
+    <thead>
+      <tr>
+        <th>아이디</th>
+        <th>전화번호</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- 여기에 데이터가 들어감 -->
+    </tbody>
+  </table>
 
-        <!-- block level -->
-        <div>여기는 DIV</div>
-        <div>여기는 DIV 두 번째</div>
-    </body>
+  <script>
+    $(document).ready(function () {
+        $.ajax({
+            url: 'https://istpldy.github.io/members.json',
+            type: 'GET',
+            dataType: 'json',
+            success: function (data) {
+                var rows = '';
+                data.forEach(function (member) {
+                    rows += '<tr><td>' + member.id + '</td><td>' + member.phone + '</td></tr>';
+                });
+                $('#memberTable tbody').append(rows);
+            },
+            error: function () {
+                alert('회원 정보를 불러오는 데 실패했습니다.');
+            }
+        });
+    });
+  </script>
+</body>
 </html>
