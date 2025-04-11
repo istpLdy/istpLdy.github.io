@@ -5,28 +5,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>jQuery AJAX Example</title>
 <style>
-body {
-font-family: Arial, sans-serif;
-margin: 20px;
-}
-#result {
-margin-top: 20px;
-border: 1px solid #ccc;
-padding: 10px;
-background-color: #f9f9f9;
-}
-table {
-width: 100%;
-border-collapse: collapse;
-}
-th, td {
-padding: 8px;
-text-align: left;
-border-bottom: 1px solid #ddd;
-}
-th {
-background-color: #f2f2f2;
-}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    #result {
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: #f9f9f9;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
 </style>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
@@ -81,7 +81,7 @@ background-color: #f2f2f2;
                 let table = '<table>';
                 table += '<tr><th>ID</th><th>Name</th><th>Phone</th></tr>';
                 for (let i = 0; i < data.length; i++) {
-                table += `<tr><td>${data[i].userid}</td><td>${data[i].name}</td><td>${data[i].phone}</td></tr>`;
+                    table += `<tr><td>${data[i].userid}</td><td>${data[i].name}</td><td>${data[i].phone}</td></tr>`;
                 }
                 table += '</table>';
                 $('#users').html(table);
